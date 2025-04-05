@@ -36,6 +36,10 @@ body {
     box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
 }
 
+.collapse {
+    display: none;
+}
+
 .card-body {
     flex: 1 1 auto;
     padding: 1.25rem;
@@ -43,7 +47,6 @@ body {
 }
 .card {
     position: relative;
-    display: flex;
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
